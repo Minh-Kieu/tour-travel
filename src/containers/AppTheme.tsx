@@ -44,7 +44,6 @@ const createAppTheme = (mode?: PaletteMode) =>
         defaultProps: {
           variant: 'outlined',
           size: 'medium',
-          InputLabelProps: { shrink: true },
         },
       },
       MuiDialog: {
@@ -86,15 +85,6 @@ const createAppTheme = (mode?: PaletteMode) =>
     },
     shape: {
       borderRadius: 8,
-    },
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 600,
-        md: 900,
-        lg: 1200,
-        xl: 1600,
-      },
     },
   });
 

@@ -54,7 +54,7 @@
 
 .MuiTextField-root {
   .MuiInputBase-root.MuiOutlinedInput-root {
-    border-radius: 4px;
+    border-radius: 0px;
 
     &:hover .MuiOutlinedInput-notchedOutline {
       border-color: var(--color-primary-main);
@@ -71,6 +71,13 @@
   &.MuiTab-textColorPrimary:hover {
     background-color: var(--color-paper-dark);
   }
+  &.Mui-selected {
+    background-color: white;
+  }
+}
+
+.MuiButtonBase-root {
+  background-color: #0000000A !important;
 }
 
 .MuiDialog-root {
@@ -81,7 +88,6 @@
     text-align: center;
   }
   .MuiDialogContent-root {
-    min-height: 80px;
     padding: 12px 24px;
   }
   .MuiDialogActions-root {
@@ -177,3 +183,4 @@
     }
   }
 }
+

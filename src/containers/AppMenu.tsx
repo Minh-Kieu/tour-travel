@@ -1,29 +1,15 @@
-import { ListItemButton, ListItemText, styled } from '@mui/material';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { privateRoute } from 'routes';
 
-const StyledListItem = styled(ListItemButton)({
-  borderRadius: 9999,
-  padding: '4px 12px',
-  '&.Mui-selected': {
-    color: 'var(--color-primary-main) !important',
-    backgroundColor: 'transparent',
-  },
-  '&:hover': {
-    color: 'var(--color-primary-main) !important',
-  },
-});
+type MenuProps = {
+  path: string;
+  name?: string;
+};
 
-const MenuItem = ({ path, name }: { path: string; name?: string }) => {
-  const location = useLocation();
-  const isHome = location.pathname === privateRoute.home.path;
-  const isSelected = isHome ? location.pathname.startsWith(path) : location.pathname === path;
-
+const MenuItem = ({ path, name }: MenuProps) => {
   return (
-    <Link to={path} className='rounded-full'>
-      <StyledListItem selected={isSelected}>
-        <ListItemText classes={{ primary: 'font-bold' }}>{name}</ListItemText>
-      </StyledListItem>
+    <Link to={path} className='hover:text-[#FF6600]'>
+      <div className='text-black px-5 text-xs font-extrabold'>{name}</div>
     </Link>
   );
 };
@@ -32,7 +18,11 @@ const AppMenu = () => {
   return (
     <>
       <MenuItem {...privateRoute.home} />
-      <MenuItem {...privateRoute.profile} />
+      <MenuItem {...privateRoute.intro} />
+      <MenuItem {...privateRoute.hotel} />
+      <MenuItem {...privateRoute.tours} />
+      <MenuItem {...privateRoute.news} />
+      <MenuItem {...privateRoute.contact} />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import axios, { AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
-import { API_URL } from 'env';
+import { API_URL, API_URL_TOURS } from 'env';
 import { enqueueSnackbar } from 'notistack';
 import { signOut } from 'reducers/profileSlice';
 import { store } from 'reducers/store';
@@ -35,7 +35,7 @@ const onError = async (error: AxiosError<ErrorResponse>) => {
   return Promise.reject(error);
 };
 
-const client = axios.create({ baseURL: API_URL + '/sfo-core/api' });
+const client = axios.create({ baseURL: API_URL_TOURS });
 client.interceptors.request.use(beforeRequest);
 client.interceptors.response.use(onResponse, onError);
 

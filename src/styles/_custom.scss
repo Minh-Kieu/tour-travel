@@ -25,7 +25,7 @@
   }
 
   .slick-dots {
-    bottom: 12px;
+    bottom: -40px;
     @media (min-width: 800px) {
       text-align: center;
       padding-right: 16px;
@@ -60,10 +60,54 @@
       color: #999;
     }
     &.slick-prev {
-      left: 12px;
+      left: -15px;
     }
     &.slick-next {
-      right: 20px;
+      right: -8px;
     }
   }
+}
+
+.slick-slide main {
+  padding: 0 1rem;
+}
+
+.link {
+  background-image: url('https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Sapa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.link:hover {
+  background-size: 120%;
+}
+
+.im {
+  transform: translate(-50%, -50%);
+}
+
+.carousel-status {
+  display: none;
+}
+
+.control-dots {
+  display: none;
+}
+
+.carousel .thumb {
+  padding: 0;
+}
+
+.carousel .thumb.selected {
+  border: 3px solid #FF6600
+}
+
+.carousel .thumbs-wrapper {
+  margin-left: 0px;
+}
+
+.parent:hover .child {
+  background-color: #FF6600 !important ;
+  color: white !important;
 }

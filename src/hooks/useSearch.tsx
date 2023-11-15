@@ -4,24 +4,17 @@ type CommonSearch = {
   page?: number;
   size?: number;
   sortBy?: string;
-  sortDirection?: 'ASC' | 'DESC';
-  searchText?: string;
   [key: string]: any;
 };
 
 const useSearch = (search?: CommonSearch) => {
-  const [dataSearch, setDataSearch] = useState<CommonSearch>({
-    page: 1,
-    size: 10,
-    sortBy: 'createdAt',
-    sortDirection: 'DESC',
+  const [dataSearch, setDataSearch] = useState<any>({
     ...search,
   });
 
   const onSearchChange = useCallback((search: CommonSearch) => {
-    setDataSearch((current) => ({
+    setDataSearch((current: any) => ({
       ...current,
-      page: 1,
       ...search,
     }));
   }, []);
