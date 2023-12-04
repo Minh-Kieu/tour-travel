@@ -1,39 +1,15 @@
 {
   "tours": [
     {
-      "id": 1,
-      "title": "Sapa - Lào Cai",
-      "name": "Du Lịch Sapa giá tốt khởi hành từ Hà Nội",
-      "priceVND": "4,874,000",
-      "rating": 5,
-      "price": 200,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Sapa.jpg",
-      "tinyImg": "https://i.pinimg.com/564x/dd/34/18/dd3418a42c8c9c7ccd8d98ecee76ce58.jpg",
-      "region": "Miền Bắc",
-      "description": "Chuyến Du Lịch Hấp Dẫn Từ Hà Nội. Bạn sẽ đắm chìm trong vẻ đẹp hùng vĩ của núi rừng tại Sapa, nơi hội tụ văn hóa dân dụ bản địa và phong cảnh thiên nhiên tuyệt vời. Chặng đường đi qua những thửa ruộng bậc thang lấp lánh màu xanh mướt làm cho hành trình trở nên đặc sắc. Cùng trải nghiệm cuộc sống của bản địa, thưởng thức ẩm thực độc đáo và thư giãn trong không khí trong lành của núi rừng. Đội ngũ hướng dẫn chuyên nghiệp sẽ đưa bạn khám phá những điểm đẹp nhất và đảm bảo chuyến đi diễn ra suôn sẻ. Đừng để lỡ cơ hội trải nghiệm Sapa với giá tốt nhất từ Hà Nội. Đặt ngay để có những khoảnh khắc đáng nhớ."
-    },
-    {
-      "id": 2,
-      "title": "Cố đô Huế",
-      "name": "Du Lịch Huế giá tốt khởi hành từ Sài Gòn",
-      "priceVND": "5,260,000",
-      "rating": 5,
-      "price": 220,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Hue.jpg",
-      "tinyImg": "https://i.pinimg.com/564x/dd/34/18/dd3418a42c8c9c7ccd8d98ecee76ce58.jpg",
-      "region": "Miền Trung",
-      "description": "Du Lịch Độc Đáo từ Sài Gòn với Giá Ưu Đãi. Bạn sẽ bị cuốn hút bởi vẻ đẹp lịch sử và văn hóa tại thành phố cổ Huế. Chuyến đi này mang đến cơ hội trải nghiệm kiến trúc cổ kính, thăm các di tích lịch sử nổi tiếng như Đại Nội và Chùa Thiên Mụ. Thưởng thức ẩm thực đặc sắc và thảnh thơi trong không khí yên bình của Huế. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn khám phá những điểm đẹp nhất và hiểu rõ về lịch sử văn hóa độc đáo của đất đỏ Huế. Đừng bỏ lỡ cơ hội trải nghiệm Du Lịch Huế với giá tốt nhất từ Sài Gòn. Hãy đặt ngay để tận hưởng hành trình đầy ý nghĩa và những kỷ niệm khó quên."
-    },
-    {
       "id": 3,
-      "title": "Vịnh Hạ Long",
+      "title": "Vịnh Hạ Dat",
       "name": "Du Lịch Hạ Long giá tốt khởi hành từ Hà Nội",
+      "description": "Du Lịch Khám Phá từ Hà Nội với Ưu Đãi Hấp Dẫn. Bạn sẽ bị mê hoặc bởi vẻ đẹp hùng vĩ của vịnh Hạ Long, một trong những diểm du lịch nổi tiếng nhất Việt Nam. Hành trình này mang đến trải nghiệm thuyền kayak giữa những hòn đảo đá ngọc, khám phá Hang Sửng Sốt và thưởng thức ẩm thực độc đáo trên tàu du thuyền sang trọng. Với giá đặc biệt từ Hà Nội, chuyến đi này hứa hẹn làm bạn say đắm trong vẻ đẹp tự nhiên tuyệt vời và không gian yên bình của biển cả. Đội ngũ hướng dẫn chuyên nghiệp sẽ đảm bảo chuyến đi diễn ra suôn sẻ và đáp ứng mọi mong đợi của du khách. Đừng bỏ lỡ cơ hội trải nghiệm Hạ Long với giá tốt nhất từ Hà Nội, đặt ngay để tận hưởng kỳ nghỉ đáng nhớ.",
+      "price": 250,
       "priceVND": "4,399,000",
       "rating": 5,
-      "price": 250,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/HaLong.jpg",
       "region": "Miền Bắc",
-      "description": "Du Lịch Khám Phá từ Hà Nội với Ưu Đãi Hấp Dẫn. Bạn sẽ bị mê hoặc bởi vẻ đẹp hùng vĩ của vịnh Hạ Long, một trong những diểm du lịch nổi tiếng nhất Việt Nam. Hành trình này mang đến trải nghiệm thuyền kayak giữa những hòn đảo đá ngọc, khám phá Hang Sửng Sốt và thưởng thức ẩm thực độc đáo trên tàu du thuyền sang trọng. Với giá đặc biệt từ Hà Nội, chuyến đi này hứa hẹn làm bạn say đắm trong vẻ đẹp tự nhiên tuyệt vời và không gian yên bình của biển cả. Đội ngũ hướng dẫn chuyên nghiệp sẽ đảm bảo chuyến đi diễn ra suôn sẻ và đáp ứng mọi mong đợi của du khách. Đừng bỏ lỡ cơ hội trải nghiệm Hạ Long với giá tốt nhất từ Hà Nội, đặt ngay để tận hưởng kỳ nghỉ đáng nhớ."
+      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/HaLong.jpg"
     },
     {
       "id": 4,
@@ -45,28 +21,6 @@
       "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/mientay.jpg",
       "region": "Miền Nam",
       "description": "Du Lịch Tuyệt Vời từ Sài Gòn với Giá Ưu Đãi Hấp Dẫn. Hành trình này dành cho những người muốn đắm chìm trong cuộc sống sông nước phong phú của miền quê thân thương. Từ thị trấn Cần Thơ đến những con kênh rợ, bạn sẽ trải nghiệm cảm giác thư thái trong không khí nguyên sơ và thân thiện. Hành trình đưa bạn đến thăm những ngôi đình và chợ nổi truyền thống, nơi bạn có cơ hội thưởng thức ẩm thực độc đáo. Với giá tốt từ Sài Gòn, chuyến đi này mang đến trải nghiệm vô song với các điểm du lịch nổi tiếng như Bến Tre và Cồn Phụng. Đội ngũ hướng dẫn tận tâm sẽ hướng dẫn bạn khám phá vùng đất đầy ắp lịch sử và văn hóa. Đừng chần chừ, đặt ngay để khám phá Miền Tây thân thương với giá tốt nhất từ Sài Gòn."
-    },
-    {
-      "id": 5,
-      "title": "Đà Lạt",
-      "name": "Du Lịch Đà Lạt giá tốt khởi hành từ Sài Gòn",
-      "priceVND": "9,999,000",
-      "rating": 5,
-      "price": 250,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/dalat.jpg",
-      "region": "Miền Nam",
-      "description": "Du Lịch Ưu Đãi Từ Sài Gòn, Khám Phá Vùng Đất Lãng Mạn. Hành trình này đưa bạn đến thành phố ngàn hoa với giá tốt từ Sài Gòn, nơi bạn sẽ trải nghiệm không khí tươi mới của mùa xuân quanh năm. Hòa mình vào vẻ đẹp hồn nhiên của thác Prenn, hồ Xuân Hương lãng mạn và những khu vườn hoa thơ mộng. Đà Lạt không chỉ là thiên đường của hoa, mà còn là nơi bạn có cơ hội thưởng thức ẩm thực độc đáo và trải nghiệm văn hóa độc đáo. Với sự hỗ trợ của đội ngũ hướng dẫn chuyên nghiệp, chuyến đi sẽ trở nên ý nghĩa và không quên. Đừng bỏ lỡ cơ hội khám phá Đà Lạt tuyệt vời với giá ưu đãi từ Sài Gòn. Hãy đặt ngay để tận hưởng một kỳ nghỉ đáng nhớ."
-    },
-    {
-      "id": 6,
-      "title": "Hội An",
-      "name": "Du Lịch Hội An giá tốt khởi hành từ Sài Gòn",
-      "priceVND": "15,000,000",
-      "rating": 5,
-      "price": 300,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/hoian.jpg",
-      "region": "Miền Trung",
-      "description": "Du Lịch Độc Đáo Từ Sài Gòn với Giá Ưu Đãi Hấp Dẫn. Bạn sẽ bị cuốn hút bởi không khí cổ kính và sự hòa quyện của lịch sử tại Hội An, một trong những điểm đến phải đến của Việt Nam. Tận hưởng cái đẹp yên bình của phố cổ, đèn lồng lung linh và hương vị ẩm thực đặc trưng. Chuyến đi này mang đến cơ hội trải nghiệm các làng nghề truyền thống, thăm các di tích lịch sử và tận hưởng bãi biển tuyệt vời. Với giá ưu đãi từ Sài Gòn, chuyến phiêu lưu này không chỉ là cuộc hành trình mà còn là hành trình quay về với quá khứ. Đội ngũ hướng dẫn chuyên nghiệp sẽ đồng hành để đảm bảo bạn có trải nghiệm tuyệt vời nhất. Đừng chần chừ, đặt ngay để bắt đầu chuyến hành trình đầy ấn tượng."
     },
     {
       "id": 7,
@@ -83,12 +37,12 @@
       "id": 8,
       "title": "Cần Thơ",
       "name": "Du Lịch Cần Thơ giá tốt khởi hành từ Sài Gòn",
-      "priceVND": "7,000,000",
-      "rating": 5,
+      "description": "Du Lịch Tuyệt Vời Từ Sài Gòn với Giá Ưu Đãi Hấp Dẫn. Hành trình này dành cho những người muốn đắm chìm trong cuộc sống sông nước phong phú của miền Tây. Từ thị trấn Cần Thơ đến những con kênh rợ, bạn sẽ trải nghiệm vẻ đẹp thơ mộng của những cánh đồng lúa xanh mướt và chợ nổi nổi tiếng. Thưởng thức ẩm thực độc đáo và đêm trên sông Hậu là trải nghiệm không thể bỏ qua. Với giá ưu đãi từ Sài Gòn, chuyến đi này không chỉ mang đến cơ hội khám phá văn hóa dân dụ mà còn là dịp tận hưởng sự yên bình của thiên nhiên. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn hiểu rõ hơn về đất đỏ miền Tây. Đừng chần chừ, đặt ngay để khám phá Cần Thơ thân thương với giá tốt nhất từ Sài Gòn",
       "price": 200,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/1533266023094_1613204-1024x681.jpg",
+      "priceVND": "7,000,000",
+      "rating": "3",
       "region": "Miền Nam",
-      "description": "Du Lịch Tuyệt Vời Từ Sài Gòn với Giá Ưu Đãi Hấp Dẫn. Hành trình này dành cho những người muốn đắm chìm trong cuộc sống sông nước phong phú của miền Tây. Từ thị trấn Cần Thơ đến những con kênh rợ, bạn sẽ trải nghiệm vẻ đẹp thơ mộng của những cánh đồng lúa xanh mướt và chợ nổi nổi tiếng. Thưởng thức ẩm thực độc đáo và đêm trên sông Hậu là trải nghiệm không thể bỏ qua. Với giá ưu đãi từ Sài Gòn, chuyến đi này không chỉ mang đến cơ hội khám phá văn hóa dân dụ mà còn là dịp tận hưởng sự yên bình của thiên nhiên. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn hiểu rõ hơn về đất đỏ miền Tây. Đừng chần chừ, đặt ngay để khám phá Cần Thơ thân thương với giá tốt nhất từ Sài Gòn"
+      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/1533266023094_1613204-1024x681.jpg"
     },
     {
       "id": 9,
@@ -102,15 +56,26 @@
       "description": "Du Lịch Độc Đáo Từ Hà Nội với Giá Ưu Đãi Hấp Dẫn. Khám phá sự hòa mình giữa hiện đại và truyền thống tại thành phố sôi động Sài Gòn. Hành trình này đưa bạn đến thăm những điểm du lịch nổi tiếng như Nhà thờ Đức Bà, Dinh Thống Nhất và Phố đi bộ Nguyễn Huệ lung linh đèn đường. Thưởng thức ẩm thực phong phú, mua sắm tại các chợ truyền thống, và thảnh thơi tận hưởng không khí sôi động của thành phố lớn nhất Việt Nam. Với giá tốt từ Hà Nội, chuyến đi này không chỉ là dịp khám phá văn hóa đa dạng mà còn là cơ hội để trải nghiệm sự năng động và sôi động của Sài Gòn. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn hiểu rõ hơn về lịch sử và đương đại của thành phố. Đừng bỏ lỡ cơ hội này để thưởng ngoạn vẻ đẹp đặc sắc của Sài Gòn"
     },
     {
-      "id": 10,
-      "title": "Phú Quốc",
-      "name": "Du Lịch Phú Quốc giá tốt khởi hành từ Hà Nội",
-      "priceVND": "18,000,000",
-      "rating": 5,
-      "price": 300,
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/offers_slide_3.jpg",
-      "region": "Miền Nam",
-      "description": "Du Lịch Ưu Đãi Từ Hà Nội với Giá Hấp Dẫn. Hành trình này mở ra cánh cửa cho cuộc phiêu lưu trên đảo Ngọc Phú Quốc, nơi hòa mình trong bãi biển tuyệt vời và không khí trong lành. Với giá tốt từ Hà Nội, bạn sẽ thưởng thức những bãi cát trắng mịn, thăm những khu vườn ngọc trai lôi cuốn và tham gia các hoạt động giải trí ngoại ô. Hành trình còn mang đến cơ hội để khám phá Công Viên Quốc Gia Phú Quốc, thưởng thức ẩm thực biển ngon miệng và thảnh thơi tại các resort sang trọng. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn tận hưởng mọi điều tuyệt vời nhất trên đảo ngọc này. Đừng bỏ lỡ cơ hội trải nghiệm Phú Quốc với giá ưu đãi, đặt ngay để có một kỳ nghỉ đáng nhớ"
+      "id": "1",
+      "title": "Sapa - Lào Cai",
+      "name": "Du Lịch Sapa giá tốt khởi hành từ Hà Nội",
+      "description": "Chuyến Du Lịch Hấp Dẫn Từ Hà Nội. Bạn sẽ đắm chìm trong vẻ đẹp hùng vĩ của núi rừng tại Sapa, nơi hội tụ văn hóa dân dụ bản địa và phong cảnh thiên nhiên tuyệt vời. Chặng đường đi qua những thửa ruộng bậc thang lấp lánh màu xanh mướt làm cho hành trình trở nên đặc sắc. Cùng trải nghiệm cuộc sống của bản địa, thưởng thức ẩm thực độc đáo và thư giãn trong không khí trong lành của núi rừng. Đội ngũ hướng dẫn chuyên nghiệp sẽ đưa bạn khám phá những điểm đẹp nhất và đảm bảo chuyến đi diễn ra suôn sẻ. Đừng để lỡ cơ hội trải nghiệm Sapa với giá tốt nhất từ Hà Nội. Đặt ngay để có những khoảnh khắc đáng nhớ.",
+      "price": "200",
+      "priceVND": "4,874,000",
+      "rating": "5",
+      "region": "Miền Bắc",
+      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Sapa.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Cố Đô Huế",
+      "name": "Du Lịch Huế giá tốt khởi hành từ Sài Gòn",
+      "description": "Du Lịch Độc Đáo từ Sài Gòn với Giá Ưu Đãi. Bạn sẽ bị cuốn hút bởi vẻ đẹp lịch sử và văn hóa tại thành phố cổ Huế. Chuyến đi này mang đến cơ hội trải nghiệm kiến trúc cổ kính, thăm các di tích lịch sử nổi tiếng như Đại Nội và Chùa Thiên Mụ. Thưởng thức ẩm thực đặc sắc và thảnh thơi trong không khí yên bình của Huế. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn khám phá những điểm đẹp nhất và hiểu rõ về lịch sử văn hóa độc đáo của đất đỏ Huế. Đừng bỏ lỡ cơ hội trải nghiệm Du Lịch Huế với giá tốt nhất từ Sài Gòn. Hãy đặt ngay để tận hưởng hành trình đầy ý nghĩa và những kỷ niệm khó quên.",
+      "price": "220",
+      "priceVND": "5,260,000",
+      "rating": "4",
+      "region": "Miền Trung",
+      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Hue.jpg"
     }
   ],
   "attractive-tours": [
@@ -170,20 +135,34 @@
     }
   ],
   "regions": {
-    "mienbac": ["Hà Nội", "Sa Pa", "Hạ Long", "Điện Biên", "Quảng Bình", "Thanh Hóa"],
-    "miennam": ["Đà Lạt", "Nha Trang", "TP.HCM", "Cần Thơ", "Phú Quốc", "Phan Thiết"]
+    "mienbac": [
+      "Hà Nội",
+      "Sa Pa",
+      "Hạ Long",
+      "Điện Biên",
+      "Quảng Bình",
+      "Thanh Hóa"
+    ],
+    "miennam": [
+      "Đà Lạt",
+      "Nha Trang",
+      "TP.HCM",
+      "Cần Thơ",
+      "Phú Quốc",
+      "Phan Thiết"
+    ]
   },
   "hotels": [
     {
       "id": 1,
-      "type": "Khách sạn",
-      "name": "Đặt phòng Khách Sạn Grand Hồ Tràm 5 sao",
-      "price": "1,980,000",
       "title": "Nằm đối diện resort là sân gôn The Bluffs do tay gôn huyền thoại Greg Norman thiết kế. The Grand Ho Tram Strip cách Thành phố Hồ Chí Minh 2 giờ lái xe qua huyện Long Thành và sắp xếp buýt miễn phí cho khách. Dịch vụ đón tại sân bay và máy bay trực thăng được cung cấp kèm phụ phí.",
+      "name": "Đặt phòng Khách Sạn Grand Hồ Tràm 5 sao",
+      "type": "Khách sạn",
+      "price": "1,980,000",
       "location": "Resort cách thành phố Vũng Tàu 50 km và cách Sân bay Quốc tế Tân Sơn Nhất khoảng 120 km.",
-      "img1": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/01/dat-phong-khach-san-grand-ho-tram-gia-re_du-lich-viet_0-600x450.png",
       "img2": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/01/dat-phong-khach-san-grand-ho-tram-gia-re_du-lich-viet_2-600x450.png",
       "img3": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/01/dat-phong-khach-san-grand-ho-tram-gia-re_du-lich-viet-600x450.png",
+      "img1": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/01/dat-phong-khach-san-grand-ho-tram-gia-re_du-lich-viet_0-600x450.png",
       "bedType1": "Giường đơn",
       "bedType2": "Giường đôi"
     },
@@ -212,6 +191,26 @@
       "img3": "",
       "bedType1": "Giường đơn",
       "bedType2": "Giường đôi"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "name": "A Quote Post for Vestibulum",
+      "description": "Cras at fringilla lacus. Phasellus tincidunt tempor mi, ut tincidunt tellus sollicitudin sed. Quisque semper viverra risus eget congue. Duis interdum ultricies massa, a commodo odio vestibulum et. Nam pretium lacus ut ligula convallis adipiscing. Praesent orci lorem, pharetra sed neque at, vehicula cursus turpis. Vivamus non hendrerit dolor. Quisque nec posuere diam, in lacinia est. Integer et nunc fringilla, cursus ipsum in, suscipit arcu. Vivamus neque eros, semper dignissim dui ut, lacinia aliquam ipsum.",
+      "createAt": "15-1-2019"
+    },
+    {
+      "id": 2,
+      "name": "Thailand Special Places of 2014",
+      "description": "Aliquam at pulvinar sem. Donec nec dolor elit. Vivamus sollicitudin, nunc feugiat suscipit tincidunt, nulla lacus lacinia eros, non imperdiet dui ligula non arcu. Fusce nunc felis, consequat a nulla eget, vehicula tempor nulla. Nunc imperdiet pretium nulla eu blandit. In ac pulvinar ipsum. Nulla facilisi. Maecenas nec purus diam. Praesent sed rhoncus sapien, non ornare est. Nulla vitae fermentum mauris. Cras quis purus et neque auctor commodo. Suspendisse at libero massa. Nulla quis augue varius, aliquet ligula ac, egestas magna. Fusce a convallis risus. Integer diam purus, vehicula et tortor sed, tempus varius diam. Nunc pretium commodo lacus. Nulla egestas velit mi, eu iaculis dolor adipiscing a. Donec vel accumsan tellus, vitae dapibus diam. Proin nec urna euismod, condimentum felis nec, scelerisque enim.",
+      "createAt": "16-1-2019"
+    },
+    {
+      "id": 3,
+      "name": "10 Best Places Gallery",
+      "description": "Sed quam nisl, commodo in interdum sit amet, molestie vehicula erat. Vestibulum ultrices, sem vitae congue viverra, ligula lorem faucibus dolor, id tristique libero erat a ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque at nibh malesuada libero dictum condimentum. In lacinia consequat nunc quis consequat. Phasellus scelerisque hendrerit quam, sed cursus sapien ultricies et. Aenean lobortis pharetra facilisis.",
+      "createAt": "17-1-2019"
     }
   ]
 }

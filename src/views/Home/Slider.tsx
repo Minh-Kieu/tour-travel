@@ -82,7 +82,7 @@ const SliderImg = () => {
         </div>
       </InfiniteSlider>
 
-      <div className=' relative z-10 mt-[-64px] flex justify-center gap-1  font-bold text-[#FFF]'>
+      {/* <div className='relative z-10 mt-[-64px] flex justify-center gap-1 font-bold text-[#FFF]'>
         <div
           className={clsxm(
             'cursor-pointer rounded-tl-xl bg-[#00000066] px-6 py-3 text-xs hover:bg-[#000000ad] hover:text-[#FF6600] lg:px-[50px] lg:py-4 lg:text-base',
@@ -172,7 +172,7 @@ const SliderImg = () => {
             </Grid>
           </Grid>
         </Container>
-      )}
+      )} */}
     </div>
   );
 };

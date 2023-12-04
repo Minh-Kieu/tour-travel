@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { privateRoute } from 'routes';
 
 type MenuProps = {
@@ -6,11 +6,15 @@ type MenuProps = {
   name?: string;
 };
 
+const navLinkCssClasses = ({ isActive }: { isActive: boolean }): string => {
+  return `hover:text-[#FF6600] ${isActive ? 'text-[#FF6600]' : ''}`;
+};
+
 const MenuItem = ({ path, name }: MenuProps) => {
   return (
-    <Link to={path} className='hover:text-[#FF6600]'>
+    <NavLink to={path} className={navLinkCssClasses}>
       <div className='text-black px-5 text-xs font-extrabold'>{name}</div>
-    </Link>
+    </NavLink>
   );
 };
 

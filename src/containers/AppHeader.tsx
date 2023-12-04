@@ -1,11 +1,13 @@
-import { AppBar, Chip, Container, IconButton, List, Drawer, Toolbar } from '@mui/material';
+import { AppBar, Chip, Container, IconButton, List, Drawer, Toolbar, Badge } from '@mui/material';
 import { SwitchTheme } from 'components';
 import { AppMenu } from 'containers';
 import { Link, useLocation } from 'react-router-dom';
 import { privateRoute } from 'routes';
 import { useWindowSize } from 'hooks';
 import { useEffect, useState } from 'react';
-import { Menu, ShoppingCart, Close } from '@mui/icons-material';
+import { Menu, ShoppingCart, Close, ShoppingCartOutlined } from '@mui/icons-material';
+import { useSelector } from 'react-redux';
+import { cartSelector } from 'reducers/cartSlice';
 
 const AppHeader = () => {
   const location = useLocation();
@@ -16,6 +18,8 @@ const AppHeader = () => {
   useEffect(() => {
     setOpenDrawer(false);
   }, [location.pathname]);
+
+  const { numItemsInCart, cartItems } = useSelector(cartSelector);
 
   return (
     <>
@@ -40,7 +44,7 @@ const AppHeader = () => {
             <IconButton onClick={() => setOpenDrawer(true)} className='absolute  lg:hidden'>
               <Menu />
             </IconButton>
-            <IconButton className='absolute right-0 lg:hidden'>
+            <IconButton className=' lg:hidden'>
               <ShoppingCart />
             </IconButton>
             <div className='mx-auto'>
@@ -55,6 +59,11 @@ const AppHeader = () => {
             <div className='hidden flex-1 items-center justify-end py-3 lg:flex'>
               <AppMenu />
             </div>
+            <Link to={privateRoute.cart.path}>
+              <Badge badgeContent={numItemsInCart} color='primary'>
+                <ShoppingCartOutlined fontSize='small' />
+              </Badge>
+            </Link>
           </Toolbar>
         </Container>
       </AppBar>

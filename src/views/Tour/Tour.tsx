@@ -1,14 +1,48 @@
-import { Container, Card, CardContent, Grid, Pagination, Stack } from '@mui/material';
 import { HorizontalRule } from '@mui/icons-material';
+import {
+  Card,
+  CardContent,
+  Container,
+  FormControl,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Pagination,
+  Select,
+  SelectChangeEvent,
+  Stack,
+  Slider,
+} from '@mui/material';
+import { useQuery } from '@tanstack/react-query';
+import { useSearch } from 'hooks';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { privateRoute } from 'routes';
-import { useState } from 'react';
 import { toursService } from 'services';
-import { useQuery } from '@tanstack/react-query';
 
 const Tour = () => {
   const [page, setPage] = useState(1);
   const limit = 6;
+  const [dataSearch, onSearchChange] = useSearch();
+
+  const step = 50;
+  const maxPrice = 500;
+  const [selectedPrice, setSelectedPrice] = useState(0);
+
+  const [age, setAge] = useState('');
+
+  const handleChangeForm = (event: SelectChangeEvent) => {
+    onSearchChange({ region: event.target.value });
+  };
+
+  const handleChangeRatingForm = (event: SelectChangeEvent) => {
+    onSearchChange({ rating: event.target.value });
+  };
+
+  const handleChangePriceForm = (event: any) => {
+    setSelectedPrice(event.target.value);
+    onSearchChange({ price: event.target.value });
+  };
 
   const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
@@ -16,8 +50,9 @@ const Tour = () => {
 
   const { data: allTours, isLoading } = useQuery(['toursService.getTours'], () => toursService.getTours());
 
-  const { data: tours, isLoading: toursLoading } = useQuery(['toursService.getTour', { page, limit }], () =>
-    toursService.getTour({ page: page, limit: limit }),
+  const { data: tours, isLoading: toursLoading } = useQuery(
+    ['toursService.getTour', { page, limit, ...dataSearch }],
+    () => toursService.getTour({ _page: page, _limit: limit, ...dataSearch }),
   );
 
   let pages = Math.ceil(allTours?.length! / limit);
@@ -29,6 +64,69 @@ const Tour = () => {
           <p className='text-center text-[18px] font-extrabold text-[#fff]'>TOUR</p>
         </Container>
       </div>
+      <Container maxWidth='lg' className=''>
+        <form className='flex items-center justify-center rounded-lg bg-[#FFF] p-12'>
+          <FormControl>
+            <label htmlFor='price' className='flex justify-between'>
+              <span>Price</span>
+              <span>${selectedPrice}</span>
+            </label>
+            <Slider
+              name='price'
+              min={0}
+              max={maxPrice}
+              value={dataSearch.price ?? ''}
+              onChange={handleChangePriceForm}
+              step={step}
+              className='w-[220px]'
+              defaultValue={dataSearch.price ?? ''}
+            />
+          </FormControl>
+          <FormControl sx={{ m: 1, minWidth: 120 }} size='small'>
+            <InputLabel id='demo-select-small-label'>Miền</InputLabel>
+            <Select
+              labelId='demo-select-small-label'
+              id='demo-select-small'
+              value={dataSearch.region ?? ''}
+              label='Miền'
+              onChange={handleChangeForm}
+              defaultValue={dataSearch.region ?? ''}
+            >
+              <MenuItem value='Miền Bắc'>Miền Bắc</MenuItem>
+              <MenuItem value='Miền Trung'>Miền Trung</MenuItem>
+              <MenuItem value='Miền Nam'>Miền Nam</MenuItem>
+            </Select>
+          </FormControl>
+
+          <FormControl sx={{ m: 1, minWidth: 120 }} size='small'>
+            <InputLabel id='demo-select-small-label'>Rating</InputLabel>
+            <Select
+              labelId='demo-select-small-label'
+              id='demo-select-small'
+              value={dataSearch.rating ?? ''}
+              label='Rating'
+              onChange={handleChangeRatingForm}
+              defaultValue={dataSearch.rating ?? ''}
+            >
+              <MenuItem value={1}>1</MenuItem>
+              <MenuItem value={2}>2</MenuItem>
+              <MenuItem value={3}>3</MenuItem>
+              <MenuItem value={4}>4</MenuItem>
+              <MenuItem value={5}>5</MenuItem>
+            </Select>
+          </FormControl>
+          <button
+            type='button'
+            onClick={() => {
+              onSearchChange({ region: undefined, rating: undefined, price: undefined });
+              setSelectedPrice(0);
+            }}
+            className='rounded-lg bg-[#559143] px-5 py-3'
+          >
+            Reset
+          </button>
+        </form>
+      </Container>
       <Container maxWidth='lg' className='flex flex-col gap-5 py-8 lg:flex-row'>
         <div className='lg:basis-1/4'>
           <p className='font-extrabold'>NHỮNG TOUR KHÁC</p>

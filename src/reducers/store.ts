@@ -3,10 +3,12 @@ import { persistReducer, persistStore } from 'redux-persist';
 import { default as storage } from 'redux-persist/lib/storage';
 import { profileSlice } from './profileSlice';
 import { themeSlice } from './themeSlice';
+import { cartSlice } from './cartSlice';
 
 const rootReducer = combineReducers({
   [profileSlice.name]: profileSlice.reducer,
   [themeSlice.name]: themeSlice.reducer,
+  [cartSlice.name]: cartSlice.reducer,
 });
 
 const persistedReducer = persistReducer({ key: 'root', storage }, rootReducer);

@@ -12,7 +12,7 @@ const Home = () => {
     toursService.atractiveTours(),
   );
 
-  console.log(isLoading, isLoadingAtractiveTours);
+  console.log(tours);
 
   return (
     <div>
@@ -43,7 +43,7 @@ const Home = () => {
                           <Star fontSize='small' />
                           <Star fontSize='small' />
                         </div>
-                        <p className='py-4'>Giá tour: ${tour.price}</p>
+                        <p className='py-4'>Giá tour: {tour.price}$</p>
                         <Button className='rounded-2xl bg-[#FF6600] text-xs'>XEM NGAY</Button>
                       </div>
                     </div>

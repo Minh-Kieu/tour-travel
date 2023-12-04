@@ -20,6 +20,8 @@ import { privateRoute } from 'routes';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { useDispatch } from 'react-redux';
+import { addItem, clearCart } from 'reducers/cartSlice';
 
 var settings = {
   dots: true,
@@ -77,6 +79,12 @@ const TourDetail = () => {
     setValue(newValue);
   };
 
+  const dispatch = useDispatch();
+
+  const addToCart = () => {
+    dispatch(addItem({ product: tour?.[0] }));
+  };
+
   return (
     <Spinner loading={isLoading}>
       <div>
@@ -105,7 +113,11 @@ const TourDetail = () => {
               <HorizontalRule fontSize='large' className='mt-2 text-[#0000001A]' />
               <p className='mb-2 text-2xl font-extrabold'>{tour?.[0].priceVND} ₫</p>
               <p className='mb-2'>{tour?.[0].description}</p>
-              <button type='button' className='rounded-lg bg-[#E30050] px-5 py-3 font-extrabold text-[#FFF]'>
+              <button
+                type='button'
+                onClick={addToCart}
+                className='rounded-lg bg-[#E30050] px-5 py-3 font-extrabold text-[#FFF]'
+              >
                 ĐẶT NGAY
               </button>
               <div className='my-4 border border-[#ececec]'></div>

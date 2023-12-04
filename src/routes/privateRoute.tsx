@@ -1,9 +1,10 @@
 import { Home } from 'views/Home';
 import { Introduce } from 'views/Introduce';
 import { Hotel, HotelDetail } from 'views/Hotel';
-import { News } from 'views/News';
+import { News, NewsDetail } from 'views/News';
 import { Contact } from 'views/Contact';
 import { Tour, TourDetail } from 'views/Tour';
+import { Cart } from 'views/Cart';
 
 const privateRoute = {
   home: {
@@ -47,6 +48,17 @@ const privateRoute = {
     url: ({ id }: { id: number }) => `/tourDetail/${id}`,
     name: 'KHÁCH SẠN',
     component: TourDetail,
+  },
+  newsDetail: {
+    path: '/newsDetail/:id',
+    url: ({ id }: { id: number }) => `/newsDetail/${id}`,
+    name: 'TIN TỨC',
+    component: NewsDetail,
+  },
+  cart: {
+    path: '/cart',
+    name: 'Giỏ hàng',
+    component: Cart,
   },
 };
 

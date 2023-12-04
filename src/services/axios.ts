@@ -1,6 +1,7 @@
 import axios, { AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
-import { API_URL, API_URL_TOURS } from 'env';
+import { API_URL_TOURS } from 'env';
 import { enqueueSnackbar } from 'notistack';
+import queryString from 'query-string';
 import { signOut } from 'reducers/profileSlice';
 import { store } from 'reducers/store';
 
@@ -37,6 +38,14 @@ const onError = async (error: AxiosError<ErrorResponse>) => {
 
 const client = axios.create({ baseURL: API_URL_TOURS });
 client.interceptors.request.use(beforeRequest);
+client.defaults.paramsSerializer = (params) =>
+  queryString.stringify(
+    Object.keys(params)
+      .filter((key) => String(params[key]).trim())
+      .reduce((trim, key) => ({ ...trim, [key]: params[key] }), {}),
+  );
+
 client.interceptors.response.use(onResponse, onError);
 
 export { client };
+
