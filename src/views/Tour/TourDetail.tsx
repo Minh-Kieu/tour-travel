@@ -21,7 +21,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useDispatch } from 'react-redux';
-import { addItem, clearCart } from 'reducers/cartSlice';
+import { addItem } from 'reducers/cartSlice';
+import { enqueueSnackbar } from 'notistack';
 
 var settings = {
   dots: true,
@@ -83,6 +84,7 @@ const TourDetail = () => {
 
   const addToCart = () => {
     dispatch(addItem({ product: tour?.[0] }));
+    enqueueSnackbar('Add to Cart successfully');
   };
 
   return (

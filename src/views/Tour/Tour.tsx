@@ -20,13 +20,36 @@ import { Link } from 'react-router-dom';
 import { privateRoute } from 'routes';
 import { toursService } from 'services';
 
+const marks = [
+  {
+    value: 0,
+    label: '$0',
+  },
+  {
+    value: 100,
+    label: '$100',
+  },
+  {
+    value: 200,
+    label: '$200',
+  },
+  {
+    value: 300,
+    label: '$300',
+  },
+];
+
+function valuetext(price: number) {
+  return `${price}`;
+}
+
 const Tour = () => {
   const [page, setPage] = useState(1);
   const limit = 6;
   const [dataSearch, onSearchChange] = useSearch();
 
   const step = 50;
-  const maxPrice = 500;
+  const maxPrice = 300;
   const [selectedPrice, setSelectedPrice] = useState(0);
 
   const [age, setAge] = useState('');
@@ -65,7 +88,7 @@ const Tour = () => {
         </Container>
       </div>
       <Container maxWidth='lg' className=''>
-        <form className='flex items-center justify-center rounded-lg bg-[#FFF] p-12'>
+        <form className='flex items-center justify-center gap-4 rounded-lg bg-[#FFF] p-12'>
           <FormControl>
             <label htmlFor='price' className='flex justify-between'>
               <span>Price</span>
@@ -80,6 +103,8 @@ const Tour = () => {
               step={step}
               className='w-[220px]'
               defaultValue={dataSearch.price ?? ''}
+              marks={marks}
+              getAriaValueText={valuetext}
             />
           </FormControl>
           <FormControl sx={{ m: 1, minWidth: 120 }} size='small'>

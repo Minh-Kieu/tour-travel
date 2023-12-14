@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { cartSelector, removeItem, clearCart } from 'reducers/cartSlice';
+import { enqueueSnackbar } from 'notistack';
 
 const Cart = () => {
   const { cartItems, numItemsInCart, cartTotal } = useSelector(cartSelector);
@@ -9,9 +10,16 @@ const Cart = () => {
 
   const removeItems = (id: number) => {
     dispatch(removeItem(id));
+    enqueueSnackbar('Remove items successfully');
   };
 
   const clearCarts = () => {
+    dispatch(clearCart());
+    enqueueSnackbar('Clear cart successfully');
+  };
+
+  const orderBtn = () => {
+    enqueueSnackbar('Your order has been sent');
     dispatch(clearCart());
   };
 
@@ -46,9 +54,14 @@ const Cart = () => {
           <div className=''>Total price:</div>
           <div>${cartTotal}</div>
         </div>
-        <button type='submit' onClick={clearCarts}>
-          Clear all
-        </button>
+        <div className='flex'>
+          <button type='submit' onClick={orderBtn} className='basis-1/2 px-5 py-3'>
+            Order
+          </button>
+          <button type='submit' className='basis-1/2 px-5 py-3' onClick={clearCarts}>
+            Clear all
+          </button>
+        </div>
       </Container>
     </div>
   );

@@ -14,7 +14,7 @@ const AppProvider = ({ children }: Props) => {
     <Provider store={store}>
       <SnackbarProvider
         variant='success'
-        autoHideDuration={3000}
+        autoHideDuration={2000}
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
         classes={{ containerAnchorOriginTopRight: 'top-[72px]' }}
       >

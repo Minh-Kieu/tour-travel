@@ -3,7 +3,7 @@
     {
       "id": 3,
       "title": "Vịnh Hạ Dat",
-      "name": "Du Lịch Hạ Long giá tốt khởi hành từ Hà Nội",
+      "name": "Du LịchSapa giá tốt khởi hành từ Sai gon",
       "description": "Du Lịch Khám Phá từ Hà Nội với Ưu Đãi Hấp Dẫn. Bạn sẽ bị mê hoặc bởi vẻ đẹp hùng vĩ của vịnh Hạ Long, một trong những diểm du lịch nổi tiếng nhất Việt Nam. Hành trình này mang đến trải nghiệm thuyền kayak giữa những hòn đảo đá ngọc, khám phá Hang Sửng Sốt và thưởng thức ẩm thực độc đáo trên tàu du thuyền sang trọng. Với giá đặc biệt từ Hà Nội, chuyến đi này hứa hẹn làm bạn say đắm trong vẻ đẹp tự nhiên tuyệt vời và không gian yên bình của biển cả. Đội ngũ hướng dẫn chuyên nghiệp sẽ đảm bảo chuyến đi diễn ra suôn sẻ và đáp ứng mọi mong đợi của du khách. Đừng bỏ lỡ cơ hội trải nghiệm Hạ Long với giá tốt nhất từ Hà Nội, đặt ngay để tận hưởng kỳ nghỉ đáng nhớ.",
       "price": 250,
       "priceVND": "4,399,000",
@@ -35,7 +35,7 @@
     },
     {
       "id": 8,
-      "title": "Cần Thơ",
+      "title": "Sai gon",
       "name": "Du Lịch Cần Thơ giá tốt khởi hành từ Sài Gòn",
       "description": "Du Lịch Tuyệt Vời Từ Sài Gòn với Giá Ưu Đãi Hấp Dẫn. Hành trình này dành cho những người muốn đắm chìm trong cuộc sống sông nước phong phú của miền Tây. Từ thị trấn Cần Thơ đến những con kênh rợ, bạn sẽ trải nghiệm vẻ đẹp thơ mộng của những cánh đồng lúa xanh mướt và chợ nổi nổi tiếng. Thưởng thức ẩm thực độc đáo và đêm trên sông Hậu là trải nghiệm không thể bỏ qua. Với giá ưu đãi từ Sài Gòn, chuyến đi này không chỉ mang đến cơ hội khám phá văn hóa dân dụ mà còn là dịp tận hưởng sự yên bình của thiên nhiên. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn hiểu rõ hơn về đất đỏ miền Tây. Đừng chần chừ, đặt ngay để khám phá Cần Thơ thân thương với giá tốt nhất từ Sài Gòn",
       "price": 200,
@@ -67,15 +67,15 @@
       "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Sapa.jpg"
     },
     {
-      "id": "2",
-      "title": "Cố Đô Huế",
-      "name": "Du Lịch Huế giá tốt khởi hành từ Sài Gòn",
-      "description": "Du Lịch Độc Đáo từ Sài Gòn với Giá Ưu Đãi. Bạn sẽ bị cuốn hút bởi vẻ đẹp lịch sử và văn hóa tại thành phố cổ Huế. Chuyến đi này mang đến cơ hội trải nghiệm kiến trúc cổ kính, thăm các di tích lịch sử nổi tiếng như Đại Nội và Chùa Thiên Mụ. Thưởng thức ẩm thực đặc sắc và thảnh thơi trong không khí yên bình của Huế. Đội ngũ hướng dẫn chuyên nghiệp sẽ giúp bạn khám phá những điểm đẹp nhất và hiểu rõ về lịch sử văn hóa độc đáo của đất đỏ Huế. Đừng bỏ lỡ cơ hội trải nghiệm Du Lịch Huế với giá tốt nhất từ Sài Gòn. Hãy đặt ngay để tận hưởng hành trình đầy ý nghĩa và những kỷ niệm khó quên.",
-      "price": "220",
-      "priceVND": "5,260,000",
-      "rating": "4",
-      "region": "Miền Trung",
-      "img": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/12/Hue.jpg"
+      "id": "66",
+      "title": "1",
+      "name": "1",
+      "description": "1",
+      "price": "1",
+      "priceVND": "1",
+      "rating": "1",
+      "region": "1",
+      "img": "1"
     }
   ],
   "attractive-tours": [
@@ -168,16 +168,16 @@
     },
     {
       "id": 2,
-      "type": "Khách sạn",
-      "name": "Đặt Phòng Khách Sạn Victoria Sapa Resort",
-      "price": "7,399,000",
       "title": "Victoria Sapa Resort & Spa nằm ở thị trấn Sapa, cách Hà Nội 380km về phía Bắc và gần đường biên giới với Trung Quốc. Để đến Khách sạn Victoria Sapa, Quý khách đi tàu từ ga Hà Nội đến ga Lào Cai và chuyển sang xe để đến khách sạn cách đó khoảng 35km.",
-      "location": "",
+      "name": "Đặt Phòng Khách Sạn Victoria Sapa Resort",
+      "type": "Khách sạn",
+      "price": "7,399,000000",
+      "location": "1",
+      "img2": "1",
+      "img3": "1",
       "img1": "https://mauweb.monamedia.net/lets-travel/wp-content/uploads/2018/01/dat-phong-khach-san-victoria-sapa-resort-gia-re_du-lich-viet-600x450.png",
-      "img2": "",
-      "img3": "",
       "bedType1": "Giường đơn",
-      "bedType2": ""
+      "bedType2": "Giuong doi"
     },
     {
       "id": 3,
